@@ -1,0 +1,129 @@
+header {
+    font-family: bungee;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+}
+
+body {
+    font-family: bungee;
+}
+
+a {
+    font-family: bungee;
+    color: #7944e6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #10fdff;
+}
+
+.about {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    background-color: #ff00ff;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 10px 30px 0 30px;
+}
+
+#about-text {
+    padding-left: 5%;
+    line-height: 99%;
+    vertical-align: middle;
+}
+
+section {
+    border: solid 8px;
+    border-color: #7944e6;
+    text-align: center;
+}
+
+.aboutimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 37rem;
+}
+
+.sectionimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 50px 0 50px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: space-between;
+    max-width: 600px;
+    justify-content: space-between;
+    margin: 15px 50px 15px 50px;
+}
+
+
+li {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#ccc {
+    align-content: flex-start;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .options {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+
+}
+
+@-ms-viewport{
+    width: device-width;
+  }
